@@ -11,6 +11,23 @@ This task intentionally sounds challenging and contains language not frequently 
 
 > ANSWER BOX
 ```
-// TODO: Fill me in!
+Upon hearing of this task, I inquired my brother regarding networking and the use of docker, with the inclusion of individual research to expand my repertoire of knowledge required to complete this task.
+
+I researched the Matrix, and learnt how it worked aswell as differerent homeservers. Following the advice provided as well as through comparison, I decided to use conduwuit as my homeserver. I downloaded it through the github repository.
+
+I decided to create a docker compose for ease of access and security, instead of solely running the command. I created a basic docker compose using with only 2 environment variables.
+
+For the server name, my brother lent me one of his sub domains for me to run the server on. Though I did not create this myself, I understand why I need a server and am willing to learn how to deploy a server myself.
+
+Upon the creation of the docker compose, I ran into several issues with the environment variables, found through runtime errors and the use of federationtester. 
++Insufficent confirmation
++Invalid database path
++Invalid address
++Insufficent certificates
+
+
+I searched for an example conduwuit docker compose, and managed to fix the confirmation, database path and address, but I had to externally download the certificates and create the variables to proceed.
+
+Once the docker compose was completed, I inserted my server into element.io, and finally sent the message.
 
 ```
